@@ -49,17 +49,17 @@ function computerChoice() {
 
 function checkWinner(humanChoice, computerChoice) {
     if(humanChoice === computerChoice) {
-        console.log('Nothing happens feijoada!')
+        console.log('Nothing happens')
         return
     }
 
-    const humanWin = Array.from(possibilities[humanChoice]).find(possibility => possibility.includes(computerChoice))
+    const humanWin = possibilities[humanChoice].find(possibility => possibility.includes(computerChoice))
 
     if(humanWin) {
         console.log(`${humanChoice} ${humanWin}`)
         humanWins++
     } else {
-        const computerWin = Array.from(possibilities[computerChoice]).find(possibility => possibility.includes(humanChoice))
+        const computerWin = possibilities[computerChoice].find(possibility => possibility.includes(humanChoice))
         console.log(`${computerChoice} ${computerWin}`)
         computerWins++
     }
