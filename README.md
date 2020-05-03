@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![How to Play Rock, Paper, Scissors, Lizard, Spock](http://images6.fanpop.com/image/photos/34000000/Rock-Paper-Scissors-Lizard-Spock-the-big-bang-theory-34015104-500-500.png)
+![How to Play Rock, Paper, Scissors, Lizard, Spock](https://ik.imagekit.io/diegyohoho/rpsls_i043JwACW.png)
 
 </div>
 
@@ -62,3 +62,7 @@ You: 0 X Computer: 1
 ---
 
 Desenvolvido por Diego Moreira
+
+<a href="https://www.linkedin.com/in/diegyohoho/" >
+    <img alt="My Linkedin" src="https://img.shields.io/badge/-diegyohoho-%230077B5?style=social&logo=linkedin">
+</a>
