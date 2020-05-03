@@ -22,6 +22,9 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
+let humanWins = 0,
+    computerWins = 0
+
 const choices = [
     'Rock',
     'Paper',
@@ -37,9 +40,6 @@ const possibilities = {
     'Lizard': ['poisons Spock','eats Paper'],
     'Spock': ['smashes Scissors','vaporizes Rock'],
 }
-
-let humanWins = 0,
-    computerWins = 0
 
 function computerChoice() {
     const choice = choices[getRandomInt(0, choices.length)]
